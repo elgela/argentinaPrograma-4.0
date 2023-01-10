@@ -1,5 +1,18 @@
+body {
+    background-color: aquamarine;
+}
+
 .nom {
+    height: 50px;
+    font-size: xx-large;
+    background-color: aliceblue;
     text-align: center;
-    color:darkblue
+    color:darkblue;
+}
+
+.caract {
+    font-size:x-large;
+    text-align: center;
+    background-color:burlywood
 }
 
