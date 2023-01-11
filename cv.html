@@ -9,41 +9,56 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1 class="nom">Curriculum Vitae</h1>
+    <h1 class="nom">CV Lee Gray</h1>
     <div style="text-align: center">
         <img id="imagen" src="./img/Lee Gray.jpg" onmouseover="this.width=150;this.height=150;" onmouseout="this.width=100;this.height=80;" width="100" height="80"/>
     </div>
     
-   <h3 class="caract">Datos personales</h3>
+   <h3 class="flex-items">Datos personales</h3>
         <ul>
-            <li><span style="color: red;">Nombre: </span>Lee</li>
+            <li><label for="focus-id-name" class="flex-grow">Nombre</label>
+            <div class="relativo">
+                <input id="focus-id" data-="Nombre">
+            </div>
+            </li>
             <br/>
             <li><span style="color: red;">Apellido: </span>Gray</li>
             <br/>
-            <li><span style="color: red;">Fecha de nacimiento: </span>12/07/1949</li>
+            <li><span style="color: red;">Teléfono: </span>(216) 435-8226</li>
             <br/>
             <li><span style="color: red;">Dirección: </span>4047 Parker Rd</li>
             <br/>
-            <li><span style="color: red;">Tel: </span>(216) 435-8226</li>
+            <li><span style="color: red;">Fecha de nacimiento: </span>12/07/1949</li>
             <br/>
             <li><span style="color: red;">E-mail: </span>gray@example.com</li>
         </ul>
     <br/>
 
-    <h3 class="caract">Datos académicos</h3>
+    <h3 class="flex-items">Datos académicos</h3>
         <ul>
             <li><span style="color: red;">Escuela primaria: </span>EEP Nº 2</li>
             <br/>
             <li><span style="color: red;">Escuela secundaria: </span>EEM Nº 3</li>
         </ul>
     <br/>    
-    <h3 class="caract">Experiencia profesional</h3>
-        <ul>
+    <h3 class="flex-items">Experiencia laboral</h3>
+        <!-- <ul>
             <h5><li><a href="https://www.tiemposur.com.ar/info-general/la-era-vhs-y-el-videoclub" target="_blank">Videoclub (2010 - 2012)</a></li></h5>
             <h5><li><a href="https://www.elespanol.com/como/escribe-quiosco-kiosco/674682750_0.amp.html" target="_blank">Kiosco (2009 - 2010)</a></li></h5>
             <h5><li><a href="https://billiken.lat/interesante/sabias-que-en-argentina-la-primera-agencia-de-remis-se-creo-en-1952/" target="_blank">Remis (2005 - 2009)</a></li></h5>
             <h5><li><a href="https://www.vescom.com/es/tapicerias" target="_blank">Tapicería (2004 - 2005)</a></li></h5>
             <h5><li><a href="https://www.casaalpina.com.ar/" target="_blank">Cabañas (2000 - 2004)</a></li></h5>
-        </ul>  
+        </ul> -->
+    <nav>
+        <div class="logo">
+            <ul>
+                <h5><li><a href="https://www.tiemposur.com.ar/info-general/la-era-vhs-y-el-videoclub" target="_blank">Videoclub (2010 - 2012)</a></li></h5>
+                <h5><li><a href="https://www.elespanol.com/como/escribe-quiosco-kiosco/674682750_0.amp.html" target="_blank">Kiosco (2009 - 2010)</a></li></h5>
+                <h5><li><a href="https://billiken.lat/interesante/sabias-que-en-argentina-la-primera-agencia-de-remis-se-creo-en-1952/" target="_blank">Remis (2005 - 2009)</a></li></h5>
+                <h5><li><a href="https://www.vescom.com/es/tapicerias" target="_blank">Tapicería (2004 - 2005)</a></li></h5>
+                <h5><li><a href="https://www.casaalpina.com.ar/" target="_blank">Cabañas (2000 - 2004)</a></li></h5>
+            </ul>
+        </div>
+    </nav>
 </body>
 </html>
