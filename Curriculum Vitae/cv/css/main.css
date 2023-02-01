@@ -1,0 +1,12 @@
+:root {
+    --theme-color: white;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--theme-color);
+}
+
+a {
+    text-decoration: none;
+}
