@@ -78,7 +78,7 @@
     display: none;
 }
 
-/* @media (max-width: 950px) {
+@media (max-width: 950px) {
 
 
 .menu {
@@ -143,4 +143,4 @@
 .menu a.selected {
     color: var(--secundary-color);
 }
-} */
+}

@@ -1,4 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
 
 .profile-info {
     margin-bottom: 25px;
@@ -56,7 +56,7 @@
     filter: brightness(130%);
 }
 
-/* @media (min-width: 950px) {
+@media (min-width: 950px) {
     .profile-info {
         margin-bottom: 0px;
     }
@@ -88,4 +88,4 @@
     .profile-btn {
         font-size: 28px;
     }
-} */
+}

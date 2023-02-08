@@ -8,5 +8,3 @@ function toggleMenu() {
 
 openMenuBtn.addEventListener("click", toggleMenu);
 closeMenuBtn.addEventListener("click", toggleMenu);
-
-const academy = document.querySelector(".academy");
