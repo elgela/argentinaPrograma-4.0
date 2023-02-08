@@ -78,8 +78,8 @@
     display: none;
 }
 
-@media (max-width: 950px) {
- /* menu */
+/* @media (max-width: 950px) {
+
 
 .menu {
     flex-direction: column;
@@ -143,4 +143,4 @@
 .menu a.selected {
     color: var(--secundary-color);
 }
-}
+} */
