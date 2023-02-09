@@ -1,17 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
+
 .profile-info {
-    margin-bottom: 25px;
+    margin-bottom: 25px;/*margen inferior*/
 }
 
 .profile-img {
-    width: 80%;
-    max-width: 300px;
+    width: 80%; /*ancho*/
+    max-width: 300px; /*para que no crezca mas que esto*/
 }
 
 .profile-img-section {
     position: relative;
+    /*display: inline; para que quede ocupando sólo ancho de imagen y no más, en vez de <span> en el index*/
 }
 
-.profile-img-line {
+.profile-img-line { /*la línea por debajo de la imagen*/
     background-color: var(--secundary-color);
     height: 15px;
     position: absolute;
@@ -21,22 +24,22 @@
 }
 
 .profile {
-    text-align: center;
+    text-align: center; /*todos los elementos quedarán centrados*/
 }
 
 .profile-title {
-    font-size: 35px;
-    font-weight: bold;
+    font-size: 35px; /*tamaño de la fuente*/
+    font-weight: bold; /*queda la fuente mas fuerte*/
     margin: 0;
-    color: var(--primary-color);
-    font-family: 'Noto Sans', sans-serif;
+    color: var(--primary-color); /*así se usa una de las variables definidas en :root*/
+    font-family: 'Noto Sans', sans-serif; /*si no se encontrara la primera usa la segunda, que la tienen todos los navegadores*/
 }
 
 .profile-details {
-    font-style: 18px;
+    font-size: 18px;
     font-weight: 500;
-    line-height: 1.3;
-    max-width: 450px;
+    line-height: 1.3; /*da el espaciado de alto de línea*/
+    max-width: 450px; /*el ancho máximo*/
     margin: 20px auto;
 }
 
@@ -45,12 +48,12 @@
     color: var(--text-color-inverse);
     border: none;
     font-size: 20px;
-    padding: 0.5em 1em;
+    padding: 0.5em 1em; /*la unidad 'em' hace que sea relativa al tamaño del elemento*/
     border-radius: 7px;
-    cursor: pointer;
+    cursor: pointer;/*cambia el puntero a manito*/
 }
 
-.profile-btn:hover {
+.profile-btn:hover { /*:hover hace que al pasar el cursor por arriba cambie en algo*/
     filter: brightness(130%);
 }
 

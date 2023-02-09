@@ -1,4 +1,4 @@
-:root {
+:root { /* Esto sirve para poner color a diferentes cosas y no tener que cambiarlo en cada uno de los lugares en que esté. Si se quiere cambiar alguno se hace acá y así se cambia en cada uno en donde lo tenga */
     --theme-color: white;
     --primary-color: #124f88;
     --secundary-color: #f7c331;
@@ -12,7 +12,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     background-color: var(--theme-color);
     color: var(--text-color);
-    padding-top: 70px;
+    padding-top: 70px; /*es para el espaciado de arriba*/
 }
 
 a {
