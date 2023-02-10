@@ -1,0 +1,25 @@
+ul.schools-list li {
+    padding-bottom: 15px;
+}
+
+.school-school {
+    color: rgb(138, 137, 136);
+    font-size: larger;
+    font-style: oblique;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.academicos {
+    background-color: var(--primary-color);
+    font-style: inherit;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.schools {
+    color: rgb(200, 202, 202);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a {
+    color: crimson;
+}
