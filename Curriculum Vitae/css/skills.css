@@ -21,7 +21,7 @@
 
 .skills-list {
     list-style: none;
-    padding: 0;
+    padding-bottom: 0;
 
     display: flex;
     flex-wrap: wrap;

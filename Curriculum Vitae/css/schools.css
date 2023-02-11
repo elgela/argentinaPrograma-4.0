@@ -1,25 +1,31 @@
 ul.schools-list li {
-    padding-bottom: 15px;
+    list-style: circle;
+    padding-bottom: 10px;
 }
 
 .school-school {
-    color: rgb(138, 137, 136);
-    font-size: larger;
+    color: rgb(199, 199, 193);
+    font-size: 30px;
     font-style: oblique;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.academicos {
+.info {
+    padding-top: 2px;
+    padding-bottom: 10px;
     background-color: var(--primary-color);
     font-style: inherit;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.schools {
+.data {
+    background-color: var(--primary-color);
+    text-align: center;
+    font-size: 55px;
     color: rgb(200, 202, 202);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-a {
+/* a {
     color: crimson;
-}
+} */
