@@ -26,6 +26,34 @@ ul.schools-list li {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-/* a {
-    color: crimson;
-} */
+a {
+    color: rgb(197, 30, 63);
+}
+
+@media (max-width: 950px) {
+    ul.schools-list li {
+        list-style: circle;
+        padding-bottom: 10px;
+    }
+    
+    .school-school {
+        font-size: 20px;
+        
+    }
+    
+    .info {
+        padding-top: 2px;
+        padding-bottom: 10px;
+        background-color: var(--primary-color);
+        font-style: inherit;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    .data {
+        font-size: 25x;
+    }
+    
+    a {
+        color: rgb(197, 30, 63);
+    }
+}
