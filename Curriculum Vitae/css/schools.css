@@ -11,7 +11,7 @@ ul.schools-list li {
 }
 
 .info {
-    padding-top: 2px;
+    padding-top: 20px;
     padding-bottom: 10px;
     background-color: var(--primary-color);
     font-style: inherit;
@@ -42,8 +42,7 @@ a {
     }
     
     .info {
-        padding-top: 2px;
-        padding-bottom: 10px;
+        padding-bottom: 5px;
         background-color: var(--primary-color);
         font-style: inherit;
         font-family:Verdana, Geneva, Tahoma, sans-serif;
