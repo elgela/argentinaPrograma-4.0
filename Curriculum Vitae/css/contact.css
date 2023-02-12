@@ -1,4 +1,32 @@
-@media (max-width: 950px) {
+.dato {
+    font-size: 25px;
+    padding-top: 1px;
+    text-align: center;
+    position:static;
+    margin-inline: 50px;
+    margin-bottom: 50px;
+    background-color: var(--primary-color);
+    color: rgb(224, 170, 89);
+    border-radius: 50px;
+}
+
+.details {
+    color: rgb(230, 36, 36);
+    text-align: left;
+    margin-left: 25px;
+    padding-bottom: 15px;
+}
+
+.title {
+    color: rgb(243, 13, 25);
+}
+
+.name {
+    color: rgb(248, 253, 246);
+    text-decoration-style: solid;
+}
+
+@media (min-width: 950px) {
 
     .dato {
         padding-top: 1px;

@@ -30,7 +30,7 @@ a {
     color: rgb(197, 30, 63);
 }
 
-@media (max-width: 950px) {
+@media (min-width: 950px) {
     ul.schools-list li {
         list-style: circle;
         padding-bottom: 10px;
