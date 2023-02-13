@@ -22,7 +22,7 @@ ul.schools-list li {
     background-color: var(--primary-color);
     text-align: center;
     font-size: 55px;
-    color: rgb(200, 202, 202);
+    color: rgb(202, 202, 200);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
