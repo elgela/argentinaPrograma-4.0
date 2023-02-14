@@ -27,8 +27,8 @@ ul.schools-list li {
 }
 
 a {
-    background-color: rgb(12, 144, 167);
     color: rgb(167, 45, 80);
+    
 }
 
 @media (min-width: 950px) {

@@ -81,7 +81,6 @@
 
 @media (max-width: 950px) {
 
-
 .menu {
     flex-direction: column;
     position: fixed;
@@ -97,6 +96,10 @@
     pointer-events: none;
     transition: opacity 0.3s;
 }
+
+/* .visible_menu {
+    opacity: 0;
+} */
 
 .menu li {
     padding: 0;

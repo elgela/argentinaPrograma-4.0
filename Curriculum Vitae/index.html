@@ -21,6 +21,9 @@
     <link rel="stylesheet" href="/Curriculum Vitae/css/contact.css" />
 
     <script defer src="js/app.js"></script>
+    <script src="http://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous">
+        </script>
 </head>
 
 <body>
@@ -40,17 +43,17 @@
                     <img src="img/close-icon.svg" alt="" />
                 </button>
                 <p id="perfil"></p>
-                <li><a href="#profile" class="selected">Perfil</a></li>
+                <li><a href="#profile">Perfil</a></li>
                 <li><a href="#academy">Datos académicos</a></li>
                 <li><a href="#experience">Experiencia laboral</a></li>
                 <li><a href="#contact">Contacto</a></li>
             </ul>
         </nav>
     </header>
-    
+
     <a href="#"></a>
     <div class="horizontal-padding vertical-padding">
-        <section class="profile">
+        <section class="profile" id="profile">
             <div class="profile-info">
                 <h1 class="profile-title">Hola, soy <br />Marcelo</h1>
                 <p class="profile-details">
@@ -81,7 +84,7 @@
     </div>
     <img src="/Curriculum Vitae/img/wave.svg" alt="">
     <section>
-        <div class="info">
+        <div class="info" id="academy">
             <h2 class="data">Datos académicos</h2>
             <ul class="schools-list">
                 <li class="school-school">Escuela primaria: <a href="https://www.facebook.com/groups/247627252942198/"
@@ -90,7 +93,7 @@
                         href="https://sites.google.com/view/secundaria1tandil/la-escuela" target="_blank">EEM N°3</a>
                 </li>
             </ul>
-            <hr color="white">
+            <hr color="white" id="experience">
             <h2 class="data">Experiencia laboral</h2>
             <ul class="schools-list">
                 <li class="school-school">Videoclub: <a
@@ -108,20 +111,21 @@
                         (2000 - 2004)</a></li>
             </ul>
             <hr color="white">
-        </section>
-        <img src="/Curriculum Vitae/img/wave-botom.svg" alt="">
+    </section>
+    <img src="/Curriculum Vitae/img/wave-botom.svg" alt="">
     </div>
-        <div class="dato">
-            <h3 class="title">Contacto</h3>
-            <p class="details">Nombre: <span class="dat">Marcelo</span></p>
-            <p class="details">Teléfono: <span class="dat">(709) 961-0578</span></p>
-            <p class="details">Dirección: <span class="dat">3476 Frances Ct</span></p>
-            <p class="details">Fecha de nacimiento: <span class="dat">1/4/1952</span></p>
-            <p class="details">E-mail:
-                <a href="mailto:marcelo@example.com" style="text-decoration:none !important; color:#02a1d3 !important">marcelo@example.com</a>
-             </p>            
-        </div>
-    
+    <div class="dato">
+        <h3 class="title" id="contact">Contacto</h3>
+        <p class="details">Nombre: <span class="dat">Marcelo</span></p>
+        <p class="details">Teléfono: <span class="dat">(709) 961-0578</span></p>
+        <p class="details">Dirección: <span class="dat">3476 Frances Ct</span></p>
+        <p class="details">Fecha de nacimiento: <span class="dat">1/4/1952</span></p>
+        <p class="details">E-mail:
+            <a href="mailto:marcelo@example.com"
+                style="text-decoration:none !important; color:#02a1d3 !important">marcelo@example.com</a>
+        </p>
+    </div>
+
     </div>
 
 </body>
