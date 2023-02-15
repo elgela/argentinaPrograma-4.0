@@ -27,8 +27,11 @@ ul.schools-list li {
 }
 
 a {
-    color: rgb(167, 45, 80);
-    
+    color: rgb(167, 45, 80);  
+}
+
+.fa-arrow {
+    color: var(--text-color-inverse)
 }
 
 @media (min-width: 950px) {
