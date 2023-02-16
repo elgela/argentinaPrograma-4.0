@@ -19,10 +19,11 @@ ul.schools-list li {
 }
 
 .data {
+    padding: 10;
     background-color: var(--primary-color);
     text-align: center;
     font-size: 55px;
-    color: rgb(195, 195, 39);
+    color: rgb(39, 177, 195);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 

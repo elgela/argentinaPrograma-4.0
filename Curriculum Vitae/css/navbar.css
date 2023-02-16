@@ -76,7 +76,7 @@
 
 .open-menu,
 .close-menu {
-    display: none;
+    display:grid;
 }
 
 @media (max-width: 950px) {
@@ -97,9 +97,9 @@
     transition: opacity 0.3s;
 }
 
-/* .visible_menu {
+.visible_menu {
     opacity: 0;
-} */
+}
 
 .menu li {
     padding: 0;
