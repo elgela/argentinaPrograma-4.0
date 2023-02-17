@@ -30,7 +30,12 @@ a {
     padding-bottom: 70px;
 }
 
-@media (min-width: 950px) {
+.design {
+    background-color: #47d8fd;
+    background-image: url();
+}
+
+@media (max-width: 950px) {
     .horizontal-padding {
         padding-left: 70px;
         padding-right: 70px;
@@ -39,5 +44,9 @@ a {
     .vertical-padding {
         padding-top: 70px;
         padding-bottom: 70px;
+    }
+
+    .design {
+        background-color: #28f604;
     }
 }

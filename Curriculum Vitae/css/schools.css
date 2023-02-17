@@ -4,7 +4,7 @@ ul.schools-list li {
 }
 
 .school-school {
-    color: rgb(199, 199, 193);
+    color: rgb(122, 164, 59);
     font-size: 30px;
     font-style: oblique;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -23,7 +23,7 @@ ul.schools-list li {
     background-color: var(--primary-color);
     text-align: center;
     font-size: 55px;
-    color: rgb(39, 177, 195);
+    color: rgb(133, 250, 133);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -42,7 +42,7 @@ a {
     }
     
     .school-school {
-        font-size: 20px;
+        font-size: 25px;
         
     }
     

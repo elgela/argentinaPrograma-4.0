@@ -1,16 +1,16 @@
-.datos {
-    font-size: 25px;
-    padding-top: 1px;
-    text-align: center;
-    position:static;
-    margin-inline: 50px;
-    margin-bottom: 50px;
-    background-color: var(--primary-color);
-    color: rgb(224, 170, 89);
-    border-radius: 50px;
-}
+    .datos {
+        font-size: 25px;
+        padding-top: 1px;
+        text-align: center;
+        position:static;
+        margin-inline: 50px;
+        margin-bottom: 50px;
+        background-color: var(--primary-color);
+        /* color: rgb(224, 170, 89); */
+        border-radius: 50px;
+    }
 
-.details {
+.item {
     color: rgb(122, 164, 59);
     text-align: left;
     margin-left: 25px;
@@ -18,7 +18,7 @@
 }
 
 .title {
-    color: rgb(243, 13, 25);
+    color: rgb(133, 250, 133);
 }
 
 .dat {
@@ -28,9 +28,9 @@
 
 @media (min-width: 950px) {
     
-    .title {
-        color: rgb(243, 13, 25);
-    }
+        /* .title {
+            color: rgb(243, 13, 25);
+        } */
     
     /* .dat {
         color: rgb(248, 253, 246);
