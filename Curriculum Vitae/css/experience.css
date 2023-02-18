@@ -81,18 +81,41 @@
     
     .experience-position {
         font-weight: 500;
-        font-size: 18px;
+        font-size: 20px;
         margin-top: 20px;
     }
     
     .experience {
-        padding: 25px;
-        max-width: 500px;
-        margin: 0 auto;
+        padding: 0;
     }
 
     .experience-grid {
         display: grid;
         grid-template-columns: auto 2px auto;
+        gap: 20px;
+    }
+
+    .line {
+        background-color: var(--text-color-inverse);
+        position: relative;
+    }
+
+    .line::before,
+    .line::after {
+        content: '';
+        display: block;
+        width: 20px;
+        height: 20px;
+        background-color: var(--text-color-inverse);
+        border-radius: 50%;
+
+        position: absolute;
+        top: -20px;
+        left: -9px;
+    }
+
+    .line::after {
+        top: 100%;
+        z-index: 1;
     }
 }
