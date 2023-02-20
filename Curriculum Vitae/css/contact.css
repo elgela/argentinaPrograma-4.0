@@ -1,13 +1,13 @@
-    .datos {
-        font-size: 25px;
-        padding-top: 1px;
-        text-align: center;
-        position:static;
-        margin-inline: 50px;
-        margin-bottom: 50px;
-        background-color: var(--primary-color);
-        border-radius: 50px;
-    }
+.contact {
+    font-size: 25px;
+    padding-top: 1px;
+    text-align: center;
+    position:static;
+    margin-inline: 50px;
+    margin-bottom: 50px;
+    background-color: var(--primary-color);
+    border-radius: 40px;
+}
 
 .item {
     color: rgb(122, 164, 59);
